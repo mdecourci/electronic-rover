@@ -15,8 +15,8 @@ Develop an API that moves an electronic rover around on a grid based on passed i
 
 
 ## Design
-A Vehicle object mimics the electronic rover an a Position object encapsulates the position.
-The Spring Boot framework has been used to creat a REST API.
+A Vehicle object mimics the electronic rover and a Position object encapsulates the position.
+The Spring Boot framework has been used to create a REST API.
 The Vehicle object provides a JAVA API
 The VehicleController provides a REST API
 #### Object Relationships
@@ -25,7 +25,7 @@ The VehicleController provides a REST API
 * A Coordinate has x,y points.
 * An Obstacle has Coordinates
 #### Assumptions
-* Only one obstacle at is time allowed in grid.
+* Only one obstacle at a time is allowed in the grid.
 * The direction of the vehicle is not used to predict positions.
 
 ## Getting Started
